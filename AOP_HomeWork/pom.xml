@@ -8,8 +8,8 @@
 		<artifactId>Spring_HomeWork</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>IOC_HomeWork</artifactId>
-	<name>IOC_HomeWork</name>
+	<artifactId>AOP_HomeWork</artifactId>
+	<name>AOP_HomeWork</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
