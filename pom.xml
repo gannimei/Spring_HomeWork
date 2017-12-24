@@ -49,5 +49,6 @@
 		<module>AOP_HomeWork</module>
     <module>Spring_JDBC_HomeWork</module>
     <module>Spring_Mybatis_HomeWork</module>
+    <module>Web_HomeWork</module>
   </modules>
 </project>
