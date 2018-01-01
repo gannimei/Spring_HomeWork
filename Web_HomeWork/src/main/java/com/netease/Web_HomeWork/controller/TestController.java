@@ -21,7 +21,6 @@ public class TestController {
 
 	@RequestMapping(value = "/userlist")
 	public ModelAndView UserList(@RequestHeader("Accept") String accept) {
-		System.out.println(accept);
 		if (accept.equals("text/html")) {
 			ModelAndView result = new ModelAndView("userlist");
 			List<User> userList = userDao.GetUserList();
