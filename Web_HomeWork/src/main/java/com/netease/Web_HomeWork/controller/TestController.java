@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
 import com.netease.Web_HomeWork.bean.User;
+import com.netease.Web_HomeWork.dao.BlogDao;
 import com.netease.Web_HomeWork.dao.UserDao;
 
 @Controller
@@ -18,6 +19,8 @@ public class TestController {
 
 	@Autowired
 	private UserDao userDao;
+	@Autowired
+	private BlogDao blogDao;
 
 	@RequestMapping(value = "/userlist")
 	public ModelAndView UserList(@RequestHeader("Accept") String accept) {

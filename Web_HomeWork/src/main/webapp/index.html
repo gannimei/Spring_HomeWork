@@ -5,6 +5,18 @@
 <title>index</title>
 </head>
 <body>
-	<h1>hello world!!!</h1>
+	<form action="test/saveBlog" method="post">
+		<p>
+			<label for="blogTitle">
+				博客标题：<input type="text" name="blogTitle" id="blogTitle" />
+			</label>
+		</p>
+		<p>
+			<label for="blogContent">
+				博客内容：
+			</label>
+			<textarea rows="10" cols="10" name="blogContent" id="blogContent"></textarea>
+		</p>
+	</form>
 </body>
 </html>
