@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Insert;
 
 public interface BlogDao {
 
-	@Insert("insert into blog(blogTitle,blogContent) values(#blogTitle,#blogContent)")
+	@Insert("insert into blog(blogTitle,blogContent) values(#{blogTitle},#{blogContent})")
 	public boolean Insert(Blog blog);
 	
 }

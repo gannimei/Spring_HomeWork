@@ -5,7 +5,7 @@
 <title>index</title>
 </head>
 <body>
-	<form action="test/saveBlog" method="post">
+	<form action="api/blog/saveBlog" method="post">
 		<p>
 			<label for="blogTitle">
 				博客标题：<input type="text" name="blogTitle" id="blogTitle" />
@@ -17,6 +17,7 @@
 			</label>
 			<textarea rows="10" cols="10" name="blogContent" id="blogContent"></textarea>
 		</p>
+		<input type="submit" value="提交" />
 	</form>
 </body>
 </html>
