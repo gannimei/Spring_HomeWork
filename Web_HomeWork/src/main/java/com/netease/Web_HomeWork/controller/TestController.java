@@ -2,21 +2,16 @@ package com.netease.Web_HomeWork.controller;
 
 import java.io.IOException;
 import java.io.Writer;
-import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
 import com.netease.Web_HomeWork.bean.Blog;
-import com.netease.Web_HomeWork.bean.User;
 import com.netease.Web_HomeWork.dao.BlogDao;
 import com.netease.Web_HomeWork.dao.UserDao;
 
